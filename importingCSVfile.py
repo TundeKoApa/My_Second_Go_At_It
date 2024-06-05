@@ -1,18 +1,10 @@
-#data project practice with PANDAS Module
-# import statistics
-# print(statistics.stdev([1,7,5,8]))
-#data variable/ an array
-# cumulativeRev = ()
-# productCat = ()
+# Analysis of two classes ie Spring 2016 and Fall 2016 of their mean, median and standard deviation as read from a 
+# file using Pandas.
 
-
-# import statistics
-#data variable
 
 import pandas as pd
 def MeanMedianStDev(list):
     df = pd.DataFrame(list)
-    # print(df)
     print("Mean, Median, St.Deviation: ",
     df.mean(numeric_only=True), df.median(numeric_only=True),df.std(numeric_only=True))
     print()
